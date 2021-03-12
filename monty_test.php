@@ -111,4 +111,3 @@ function get_choise_change_no ($three_door,$choise_door_no,$out_no) {
 
 
 ?>
-
