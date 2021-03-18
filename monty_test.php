@@ -55,7 +55,7 @@ for ( $j=0; $j<=1000000; $j++) {
 	//ハズレの一枚を教える
 	$out_no = get_out_door_no($three_door,$choise_door_no);
 	//選択を選びなおす
-	$choise_door_no = get_choise_change_no($three_door,$choise_door_no,$out_no)
+	$choise_door_no = get_choise_change_no($three_door,$choise_door_no,$out_no);
 	//アタリ・ハズレを集計する
 	if ($three_door[$choise_door_no]===true){
 		$counters['good'] = $counters['good'] + 1;
